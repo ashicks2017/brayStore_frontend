@@ -1,4 +1,6 @@
+
 import React, { Component } from 'react';
+import Title from './Title'
 import { Link } from 'react-router-dom';
 import { Col, Button, Container } from 'reactstrap';
 
@@ -133,16 +135,3 @@ handleClick(event) {
     );
   }
 } 
-
-
-  //            <div>
-  //            <form onSubmit={this.login}>
-  //                <input type="text" name="name" placeholder="Username"/>
-  //      <input type="password" name="password" placeholder="Password"/>
-  //     <input type="submit" value="login"/>
-  //  </form>
-  //  <Title name={this.state.name}/>
-  //       </div> )}
-        
-  // }
-

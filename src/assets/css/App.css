@@ -26,7 +26,7 @@
   body {
     font-family: "Oswald";
     letter-spacing: 0.3rem;
-    text-allign: center;
+    text-align: center;
   }
   .text-blue {
     color: blue
@@ -35,14 +35,14 @@
   .container {
     letter-spacing: 0.1rem;
     padding-left: 80px;
-    text-allign: center;
+    text-align: center;
     flex-direction: column;
   }
   
   .filter {
     letter-spacing: 0.1rem;
     padding-left: 120px;
-    text-allign: center;
+    text-align: center;
     flex-direction: column;
   }
   .image-container {
