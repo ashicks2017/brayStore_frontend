@@ -37,10 +37,10 @@ fetch('http://localhost:3000/cart_Items', {
       <img src={this.props.item.img_url} className="img-fluid img-thumbnail" alt="Product" className="card-img-top"/>
       <h3>{this.props.item.title}</h3>
       <p>{this.props.item.description}</p>
-      <Link to="/">
+      <Link to="/Products">
       <ButtonContainer>Back to the products</ButtonContainer>
       </Link>
-      <Link to="/cart">
+      <Link to="/Cart">
       <button onClick={(id)=>{this.addToCart(id)}}>Add to the Cart</button>
       </Link>
       </div>

@@ -11,6 +11,7 @@ import DefaultPage from './components/DefaultPage'
 import Login  from './components/Login'
 import SignUp from './components/SignUp'
 import CheckoutForm from './components/CheckoutForm'
+import Home from './components/Home'
 //import Home from './components/Home';
 
 
@@ -87,7 +88,8 @@ this.setState({displayproducts:x})
       <Navbar Search={this.Search} />
       <Filter filter={this.filter} />
       <Switch>
-      <Route exact path="/" render={ () => <ItemList displayproducts={this.state.displayproducts} handleDetail={this.handleDetail} addToCart={this.addToCart}/>}/>
+      <Route exact path="/" render={ () => <Home/> }/>
+      <Route exact path="/Products" render={ () => <ItemList displayproducts={this.state.displayproducts} handleDetail={this.handleDetail} addToCart={this.addToCart}/> }/>
       <Route path="/Details" render={ () => <Details item={this.state.selecteditem} inCart={this.state.inCart} addToCart={this.addToCart}/> }/>
       <Route path="/cart" component={Cart}/>
       <Route path="/login" component={Login} />
