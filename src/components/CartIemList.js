@@ -24,3 +24,4 @@ export default class CartItemList extends Component {
             null
                 )}
              }
+

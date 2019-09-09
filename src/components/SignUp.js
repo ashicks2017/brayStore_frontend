@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Col, Button, Container } from 'reactstrap';
 
 
 export default class SignUp extends Component {
@@ -44,16 +44,33 @@ export default class SignUp extends Component {
         return(
             
                  <div>
-
-                <form onSubmit={this.SignUp}>
-                    <input type="text" name="name" placeholder="Username"/>
-                    <input type="text" name="email" placeholder="Email" />
-                    <input type="password" name="password" placeholder="Password"/>
-                    <input type="password" name="password" placeholder="Confirm Password"/>
-                    <input type="submit" value="Create Account"/>
-                </form>
+                 <Container>
+                 <Col sm="12" md={{ size: 6, offset: 3 }}>
+                 <form className="form-signin lower-content" onSubmit={this.SignUp}>
+                 <h1 className="h3 mb-3 font-weight-normal">SignUp</h1>
+                 <label className="sr-only">Username</label>
+                 <input className="form-control" type="text" name="name" placeholder="Username"/>
+                 <br />
+                 <label className="sr-only">Email</label>
+                 <input className="form-control" type="text" name="email" placeholder="Email"/>
+                 <br />
+                 <label className="sr-only">Password</label>
+                 <input className="form-control" type="password" name="password" placeholder="Password"/>
+                 <br />
+                 <label className="sr-only">Confirm Password</label>
+                 <input className="form-control" type="password" name="password" placeholder="Confirm Password"/>
+                 <br />
+                 <input type="submit" value="Create Account"/>
+                 </form>
+                 </Col>
+                 </Container>
             </div>
         )
     }
 
 }
+
+
+
+
+

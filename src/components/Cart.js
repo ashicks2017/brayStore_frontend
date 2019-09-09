@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Button, Container, Row, Col } from 'reactstrap';
-import CartItemList from './CartItemList';
+import CartItemList from './CartIemList';
 import { ButtonContainer } from './Button';
 
 export default class Cart extends Component {
@@ -13,7 +12,6 @@ constructor(){
 
    }
 }
-
 
    clearCart = () => {
    fetch(`http://localhost:3000/customers/${parseInt(localStorage.customer)}/items`, {
@@ -94,6 +92,3 @@ sum = () => {
             <h2>${this.state.total}</h2>
          </div>)}
        }
-
-
-   

@@ -1,7 +1,5 @@
 
 import React, { Component } from 'react';
-import Title from './Title'
-import {Redirect} from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { Col, Button, Container } from 'reactstrap';
 

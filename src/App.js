@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import '../src/assets/css/App.css';
-import 'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from './components/Navbar'
 import Filter from './components/Filter'
 import ItemList from './components/ItemsList'
@@ -86,7 +85,6 @@ this.setState({displayproducts:x})
       <React.Fragment>
       <Router>
       <Navbar Search={this.Search} />
-      <Filter filter={this.filter} />
       <Switch>
       <Route exact path="/" render={ () => <Home/> }/>
       <Route exact path="/Products" render={ () => <ItemList displayproducts={this.state.displayproducts} handleDetail={this.handleDetail} addToCart={this.addToCart}/> }/>
