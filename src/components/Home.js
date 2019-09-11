@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Carousel from "./Carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default class Home extends Component {
 render() {
@@ -6,7 +8,8 @@ render() {
             <div>
              <div>
               <h1 className="display-3  jumbo-head-text">Shopping on the Fly</h1>
-               <img className="center-fit" src= 'https://www.canva.com/learn/wp-content/uploads/2015/09/visual-design-composition-tb-1320x743.jpg' alt='Rose Background'/>
+               <Carousel />
+               
                 <hr className="my-2" />
               {/* </Jumbotron> */}
             </div>

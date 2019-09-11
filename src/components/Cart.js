@@ -34,8 +34,9 @@ constructor(){
 removeitem = (id) => {
     console.log(`http://localhost:3000/customers/${parseInt(localStorage.customer)}/items/${id}`)
     fetch(`http://localhost:3000/customers/${parseInt(localStorage.customer)}/items/${id}`,
-     { method: "DELETE",
-     headers:{
+    { 
+       method: "DELETE",
+      headers:{
         'Authorization':`bearer ${localStorage.token}` 
      }
      }).then((res) => {
