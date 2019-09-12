@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import { ButtonContainer } from './Button';
 import '../assets/css/App.css';
+import Filter from "./Filter"
 
 
 
@@ -18,7 +19,7 @@ addToCart = (e,id) => {
   e.preventDefault()
   console.log(`hello from add to cart',${this.props.item.id}, ${this.props.item.name}`);
   
-
+  alert("Item has been added to the cart")
 fetch('http://localhost:3000/cart_Items', {
   method: 'POST',
   headers: {
@@ -27,7 +28,9 @@ fetch('http://localhost:3000/cart_Items', {
   body: JSON.stringify({
     item_id: this.props.item.id,
     customer_id: parseInt(localStorage.customer)
+    
   })
+
 })
     } 
 
@@ -36,7 +39,9 @@ fetch('http://localhost:3000/cart_Items', {
       console.log(this.props.item)
         return (
       <div>
+     
       <div className="image-container">
+      <Filter />
       <img src={this.props.item.img_url} class="img-fluid img-thumbnail" alt="Product" className="card-img-top"/>
       <h3>{this.props.item.title}</h3>
       <p>{this.props.item.description}</p>

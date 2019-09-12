@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import '../src/assets/css/App.css';
-import Navbar from './components/Navbar'
-import Filter from './components/Filter'
-import ItemList from './components/ItemsList'
-import Details from './components/Details'
-import Cart from './components/Cart'
-import DefaultPage from './components/DefaultPage'
-import Login  from './components/Login'
-import SignUp from './components/SignUp'
-import CheckoutForm from './components/CheckoutForm'
-import Home from './components/Home'
+import Navbar from './components/Navbar';
+import Filter from './components/Filter';
+import ItemList from './components/ItemsList';
+import Details from './components/Details';
+import Cart from './components/Cart';
+import DefaultPage from './components/DefaultPage';
+import Login  from './components/Login';
+import SignUp from './components/SignUp';
+import CheckoutForm from './components/CheckoutForm';
+import Home from './components/Home';
 import AboutUs from './components/AboutUs';
+import Confirmation from './components/Confirmation';
 
 
 //import Home from './components/Home';
@@ -94,6 +95,7 @@ this.setState({displayproducts:x})
       <Route exact path="/Products" render={ () => <ItemList displayproducts={this.state.displayproducts} handleDetail={this.handleDetail} addToCart={this.addToCart}/> }/>
       <Route path="/Details" render={ () => <Details item={this.state.selecteditem} inCart={this.state.inCart} addToCart={this.addToCart}/> }/>
       <Route path="/cart" component={Cart}/>
+      <Route path="/Confirmation" component={Confirmation}/>
       <Route path="/login" component={Login} />
       <Route path="/SignUp" component={SignUp} />
       <Route path="/CheckoutForm" component={CheckoutForm}/>
