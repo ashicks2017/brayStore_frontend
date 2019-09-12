@@ -76,3 +76,11 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.bg {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQMXUKlIUmch2G9-2qoRzKPoYtJgBznDjxTOHuQxKHIamJ_efi");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

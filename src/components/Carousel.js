@@ -28,7 +28,5 @@ export default () => (
       <img src="shoe.jpg" />
       <p className="legend">Stepping out with Unique Gifts</p>
     </div>
-    <div>
-    </div>
   </Carousel>
 );
