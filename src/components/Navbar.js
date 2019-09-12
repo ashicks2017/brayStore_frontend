@@ -27,6 +27,7 @@ render() {
    <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
+        <Link to="/AboutUs">AboutUs</Link>
         <Link to="/Products">Products</Link>
          <Link to="/SignUp">SignUp</Link>
          <Link to="/login">Login/Logout</Link>

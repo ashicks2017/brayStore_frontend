@@ -9,6 +9,8 @@ render() {
         <div className="py-4">
             <div className="container">
                  <div className="row">
+                 <h1 className="display-3  jumbo-head-text">Shopping on the Fly</h1>
+                 <img className="center-fit" src= 'https://www.canva.com/learn/wp-content/uploads/2015/09/visual-design-composition-tb-1320x743.jpg' alt='Rose Background'/>
                    <h3> ALL ITEMS </h3>
                     <Container>
                       <div className= 'product-list'>

@@ -1024,6 +1024,105 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
+"@progress/kendo-data-query@^1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-data-query/-/kendo-data-query-1.5.2.tgz#3ae86a8aa9b76d9f58729fbb6dc5d8fd791b4329"
+  integrity sha512-W1tWOx0aTz5zKVxzuT0rJMmDHWjB/qoOgyWc+/yQimybcLIgjyju/fS/QrzWg1kyg9hPR87/fa0v5V833CAMGQ==
+  dependencies:
+    tslib "^1.7.0"
+
+"@progress/kendo-date-math@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-date-math/-/kendo-date-math-1.2.0.tgz#62fc00b540786b8bb5c7001ecb06b2e3ff05b498"
+  integrity sha512-SVj6lSajwgI/dxqn+Gm1Pe1T8aaQkMmf/1ALETx2pii6SMLDLdCH9tp6Kp+M5t+NDqppLVrdMYDXWng9buiU8A==
+  dependencies:
+    tslib "^1.7.0"
+
+"@progress/kendo-popup-common@^1.2.2":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-popup-common/-/kendo-popup-common-1.7.0.tgz#d0d29dbc5eacdaba8803aa3d0f69f8a8ad05dbff"
+  integrity sha512-KxPIXDkirDpJaF/UWFKbe8QpbO5CwdQH/HyNT5Fj1qZb25YaO68VZCisls2qkcEVPHBlXesDcN3QJlt4vJ6tJw==
+
+"@progress/kendo-react-animation@3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-animation/-/kendo-react-animation-3.3.0.tgz#e830918f5912f71dc28dd1180b57819bdba1b6a6"
+  integrity sha512-rJCKVxzCCj2KRFdFNaYXrgzATg0xJRcwSzcPC7KL+uvi+YlocJzy+CGE8gqmucd2Q4ciC1HYEeIz6LSf166NAA==
+  dependencies:
+    "@progress/kendo-react-common" "3.3.0"
+    prop-types "^15.6.0"
+    react-transition-group "^2.2.0"
+
+"@progress/kendo-react-buttons@3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-buttons/-/kendo-react-buttons-3.3.0.tgz#574143946d78f1179ed323c01866a5da905beec9"
+  integrity sha512-myu+9GVgazT41HD14sskwDot3FiBPmczxmYhx+EVdnvcY1d3N8Knp/0n9yv7T2OYsstQ47f+7QSB7ekFXYGdpw==
+  dependencies:
+    "@progress/kendo-react-common" "3.3.0"
+    "@progress/kendo-react-popup" "3.3.0"
+    prop-types "^15.6.0"
+
+"@progress/kendo-react-common@3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-common/-/kendo-react-common-3.3.0.tgz#9be34a643c819c37c91681036cead1e97fb34335"
+  integrity sha512-M7s0q5u229Yn8jeaP0LQywIDRl6vo6tzy3IoLeknJcBmBS1+F2vdyM2j2oiN9gN2Vuth7DYPIlQmhWyLEMvPvg==
+  dependencies:
+    "@telerik/kendo-draggable" "1.9.2"
+    prop-types "^15.6.0"
+
+"@progress/kendo-react-dateinputs@^3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-dateinputs/-/kendo-react-dateinputs-3.3.0.tgz#0895a10025ea3033848516139d68ceab76fb649e"
+  integrity sha512-YO9fYhUc+O4kXc5ApsiUFVymvdvP2P0hwUpyIwjfeibtqho88Tn3BQO3MlrwIaMgcRjjub3i8yFJGmjM++RGrQ==
+  dependencies:
+    "@progress/kendo-date-math" "1.2.0"
+    "@progress/kendo-react-buttons" "3.3.0"
+    "@progress/kendo-react-common" "3.3.0"
+    "@progress/kendo-react-popup" "3.3.0"
+    prop-types "^15.6.0"
+
+"@progress/kendo-react-dropdowns@^3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-dropdowns/-/kendo-react-dropdowns-3.3.0.tgz#5d39a23c78e207dd63a4fc00f08f84133c43b1f7"
+  integrity sha512-p00j0xs3ZOJ9ryhWasZsCYf63CQn0FqV8cmAHiYoBUpnHFVuBjFbiGkrWY/jeh35Amj2wELWN0VzEl9DgUBE8w==
+  dependencies:
+    "@progress/kendo-react-common" "3.3.0"
+    "@progress/kendo-react-popup" "3.3.0"
+    prop-types "^15.6.0"
+
+"@progress/kendo-react-grid@^3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-grid/-/kendo-react-grid-3.3.0.tgz#301a062524e7dc96414aacd33fb71c070f415e99"
+  integrity sha512-dv5tG9ohtraUA4LNA58L+3pT9VSElPJydHnWupKRbicKkUMose3ofJyrjln1faKoLSP75ey4ll1dyFZsSvGjyQ==
+  dependencies:
+    "@progress/kendo-react-common" "3.3.0"
+    prop-types "^15.6.0"
+
+"@progress/kendo-react-inputs@^3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-inputs/-/kendo-react-inputs-3.3.0.tgz#63c6b6fbc62f78986dbac1fb1b6f4bd939aca9a3"
+  integrity sha512-CqeVtc3ygqZ4TQeKX1F2GoH/t7bp4dAdaC3QqdfwBZ219ccwTblL8OXOAtvShE/zplz6841z9hah0LAV2o6itA==
+  dependencies:
+    "@progress/kendo-react-common" "3.3.0"
+    prop-types "^15.6.0"
+
+"@progress/kendo-react-intl@^3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-intl/-/kendo-react-intl-3.3.0.tgz#141fb5fce5ce4c7414266e8a7213e1e488124998"
+  integrity sha512-5UBmQES39zUyLZcjbIEFs5xZqXsYf5tstcNEdmI5mn0m7DDSN/lNLINVPXQqTJg4smhD1PmQJScwKagi3//Fdw==
+  dependencies:
+    "@telerik/kendo-intl" "^1.4.4"
+    prop-types "^15.6.0"
+
+"@progress/kendo-react-popup@3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-popup/-/kendo-react-popup-3.3.0.tgz#00b324a87fd762b249dd2fc5dda1af29a39a1e49"
+  integrity sha512-hePSsQdNh83hUNIaQvMdwNSKC/F7WkPztER2qfW/qhebYjD1OKJby59WcgUnngnYsuhDbaXLOcI1E11JrCZ2/Q==
+  dependencies:
+    "@progress/kendo-popup-common" "^1.2.2"
+    "@progress/kendo-react-animation" "3.3.0"
+    "@progress/kendo-react-common" "3.3.0"
+    prop-types "^15.6.0"
+
 "@react-bootstrap/react-popper@1.2.1":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@react-bootstrap/react-popper/-/react-popper-1.2.1.tgz#4edf4851d5b4dcf2eb6b264ebbed1a7b7654177b"
@@ -1156,6 +1255,16 @@
     "@svgr/plugin-jsx" "^4.3.2"
     "@svgr/plugin-svgo" "^4.3.1"
     loader-utils "^1.2.3"
+
+"@telerik/kendo-draggable@1.9.2":
+  version "1.9.2"
+  resolved "https://registry.yarnpkg.com/@telerik/kendo-draggable/-/kendo-draggable-1.9.2.tgz#191cb2fa1051d1c727d570d24e732872d64541ae"
+  integrity sha512-6TqfyPMFibX2kAcLyXYcsZAFmJFRxpQtizoL6YZNdFb4/YRkgijbwXsVJs7nMecTzrmroc0fieixt2XdJXgicA==
+
+"@telerik/kendo-intl@^1.4.4":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@telerik/kendo-intl/-/kendo-intl-1.5.2.tgz#2f2540b0c243c08d95895a8fc925315449f198fc"
+  integrity sha512-T5Ie2QYtbBCYS88hI3ulKhXykH0ds1FWbgaITt6dn9pmjyEbkF66a8iCbtBhI9pAwH0GLqfOoYXRcbBEUth0Sg==
 
 "@types/babel__core@^7.1.0":
   version "7.1.2"
@@ -2428,7 +2537,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.3, classnames@^2.2.6:
+classnames@^2.2.3, classnames@^2.2.5, classnames@^2.2.6:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
@@ -2796,6 +2905,11 @@ create-react-context@^0.3.0:
   dependencies:
     gud "^1.0.0"
     warning "^4.0.3"
+
+credit-card-type@6.3.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/credit-card-type/-/credit-card-type-6.3.0.tgz#6e6c13e7e592f83b067c24429486a4f250eaa030"
+  integrity sha1-bmwT5+WS+DsGfCRClIak8lDqoDA=
 
 cross-spawn@6.0.5, cross-spawn@^6.0.0, cross-spawn@^6.0.5:
   version "6.0.5"
@@ -6123,6 +6237,11 @@ lodash.templatesettings@^4.0.0:
   dependencies:
     lodash._reinterpolate "^3.0.0"
 
+lodash.throttle@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
+  integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
+
 lodash.tonumber@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/lodash.tonumber/-/lodash.tonumber-4.0.3.tgz#0b96b31b35672793eb7f5a63ee791f1b9e9025d9"
@@ -7183,6 +7302,13 @@ path-type@^3.0.0:
   dependencies:
     pify "^3.0.0"
 
+payment@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/payment/-/payment-2.3.0.tgz#b2a95e9c3052459647da3926b8b66c553d93098f"
+  integrity sha1-sqlenDBSRZZH2jkmuLZsVT2TCY8=
+  dependencies:
+    qj "~2.0.0"
+
 pbkdf2@^3.0.3:
   version "3.0.17"
   resolved "https://registry.yarnpkg.com/pbkdf2/-/pbkdf2-3.0.17.tgz#976c206530617b14ebb32114239f7b09336e93a6"
@@ -8035,7 +8161,7 @@ prop-types-extra@^1.1.0:
     react-is "^16.3.2"
     warning "^3.0.0"
 
-prop-types@^15.5.4, prop-types@^15.5.8, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@15.7.2, prop-types@^15.5.4, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -8118,6 +8244,11 @@ q@^1.1.2:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
+
+qj@~2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/qj/-/qj-2.0.0.tgz#054dd3b75ce018728d23a0605f030dfda0bd158a"
+  integrity sha1-BU3Tt1zgGHKNI6BgXwMN/aC9FYo=
 
 qs@6.7.0:
   version "6.7.0"
@@ -8229,6 +8360,14 @@ react-context-toolbox@^2.0.2:
   resolved "https://registry.yarnpkg.com/react-context-toolbox/-/react-context-toolbox-2.0.2.tgz#35637287cb23f801e6ed802c2bb7a97e1f04e3fb"
   integrity sha512-tY4j0imkYC3n5ZlYSgFkaw7fmlCp3IoQQ6DxpqeNHzcD0hf+6V+/HeJxviLUZ1Rv1Yn3N3xyO2EhkkZwHn0m1A==
 
+react-credit-card-input@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/react-credit-card-input/-/react-credit-card-input-1.1.5.tgz#6aa83fc881b57c958c9b00b50e698f76f211214f"
+  integrity sha512-G157pMMrh8CZ4Xi2ICoXrOuI9Xpl3i8AwVTZNgRWehQ8VfTwu5/TxaqlFQTbZQv3XI+g6AMCiIlgITQNDP8Jig==
+  dependencies:
+    credit-card-type "6.3.0"
+    payment "2.3.0"
+
 react-dev-utils@^9.0.3:
   version "9.0.3"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-9.0.3.tgz#7607455587abb84599451460eb37cef0b684131a"
@@ -8270,6 +8409,13 @@ react-dom@^16.9.0:
     prop-types "^15.6.2"
     scheduler "^0.15.0"
 
+react-easy-swipe@^0.0.16:
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/react-easy-swipe/-/react-easy-swipe-0.0.16.tgz#5a3d949a8f975d05be92a818254315d1318a81ea"
+  integrity sha1-Wj2Umo+XXQW+kqgYJUMV0TGKgeo=
+  dependencies:
+    prop-types "^15.5.8"
+
 react-error-overlay@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.1.tgz#b8d3cf9bb991c02883225c48044cb3ee20413e0f"
@@ -8310,6 +8456,15 @@ react-popper@^1.3.2, react-popper@^1.3.3:
     prop-types "^15.6.1"
     typed-styles "^0.0.7"
     warning "^4.0.2"
+
+react-responsive-carousel@^3.1.50:
+  version "3.1.50"
+  resolved "https://registry.yarnpkg.com/react-responsive-carousel/-/react-responsive-carousel-3.1.50.tgz#e5255f7760f3b4766efa5cd04361c74df4311960"
+  integrity sha512-f0Il76ykXn/4m49KwYlKanhWf5R5DkgZIIExI+rV8fEgSarOdUpIvS09hi13fgBcqpjzHmBnXazLtmzeQPSZYw==
+  dependencies:
+    classnames "^2.2.5"
+    prop-types "^15.5.8"
+    react-easy-swipe "^0.0.16"
 
 react-router-dom@^5.0.1:
   version "5.0.1"
@@ -8401,7 +8556,14 @@ react-scripts@3.1.1:
   optionalDependencies:
     fsevents "2.0.7"
 
-react-transition-group@^2.3.1:
+react-stripe-elements@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/react-stripe-elements/-/react-stripe-elements-5.0.0.tgz#3a67717ddc9580c4dad9d45b672a9cf6c8a6dda4"
+  integrity sha512-zYYmlaROlkRV+Naz2abUZL4DnnQFzlSKc1PmAx7DKDi8PdFUEMiXk5kepPFlIfhwzq5fgoSptT2Y3Jri0p7cAQ==
+  dependencies:
+    prop-types "15.7.2"
+
+react-transition-group@^2.2.0, react-transition-group@^2.3.1:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-2.9.0.tgz#df9cdb025796211151a436c69a8f3b97b5b07c8d"
   integrity sha512-+HzNTCHpeQyl4MJ/bdE0u6XRMe9+XG/+aL4mCxVN4DnPBQ0/5bfHWPDuOZUzYdMj94daZaZdCCc1Dzt9R/xSSg==
@@ -8523,6 +8685,14 @@ recursive-readdir@2.2.2:
   integrity sha512-nRCcW9Sj7NuZwa2XvH9co8NPeXUBhZP7CRKJtU+cS6PW9FpCIFoI5ib0NT1ZrbNuPoRy0ylyCaUL8Gih4LSyFg==
   dependencies:
     minimatch "3.0.4"
+
+redux@^4.0.1, redux@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/redux/-/redux-4.0.4.tgz#4ee1aeb164b63d6a1bcc57ae4aa0b6e6fa7a3796"
+  integrity sha512-vKv4WdiJxOWKxK0yRoaK3Y4pxxB0ilzVx6dszU2W8wLxlb2yikRph4iV/ymtdJ6ZxpBLFbyrxklnT5yBbQSl3Q==
+  dependencies:
+    loose-envify "^1.4.0"
+    symbol-observable "^1.2.0"
 
 regenerate-unicode-properties@^8.1.0:
   version "8.1.0"
@@ -9587,6 +9757,11 @@ svgo@^1.0.0, svgo@^1.2.2:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
+symbol-observable@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
+  integrity sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ==
+
 symbol-tree@^3.2.2:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
@@ -9794,7 +9969,7 @@ ts-pnp@^1.1.2:
   resolved "https://registry.yarnpkg.com/ts-pnp/-/ts-pnp-1.1.4.tgz#ae27126960ebaefb874c6d7fa4729729ab200d90"
   integrity sha512-1J/vefLC+BWSo+qe8OnJQfWTYRS6ingxjwqmHMqaMxXMj7kFtKLgAaYW3JeX3mktjgUL+etlU8/B4VUAUI9QGw==
 
-tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.7.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
   integrity sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==
@@ -10110,6 +10285,17 @@ verror@1.10.0:
     assert-plus "^1.0.0"
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
+
+video-react@^0.14.1:
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/video-react/-/video-react-0.14.1.tgz#49ac7b19f1d039c0b3ebec82f81224bc2fa8bdf1"
+  integrity sha512-R5ClJo58iJcQLS+bGNmuAMc/fx9/xcJ6oLrAlbuu7MGI49Jh7b7o79aUdQMZvzuynT1NvhVmD4N/fTOEmWNDlg==
+  dependencies:
+    "@babel/runtime" "^7.4.5"
+    classnames "^2.2.6"
+    lodash.throttle "^4.1.1"
+    prop-types "^15.7.2"
+    redux "^4.0.1"
 
 vm-browserify@^1.0.1:
   version "1.1.0"

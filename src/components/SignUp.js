@@ -37,6 +37,7 @@ export default class SignUp extends Component {
         })
         .then(e.target.reset())
     }
+    this.props.history.push('/Login')
 }
 
 
@@ -44,7 +45,7 @@ export default class SignUp extends Component {
         return(
             
                  <div>
-                 <Container>
+                 <Container style={{backgroundColor: '#E3AFBC'}}>
                  <Col sm="12" md={{ size: 6, offset: 3 }}>
                  <form className="form-signin lower-content" onSubmit={this.SignUp}>
                  <h1 className="h3 mb-3 font-weight-normal">SignUp</h1>

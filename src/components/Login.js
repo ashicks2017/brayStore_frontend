@@ -3,6 +3,15 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Col, Button, Container } from 'reactstrap';
 
+// let img = './public/images/jens-kreuter-IBb0U6k0PAY-unsplash';
+
+// var sectionStyle = {
+//   width: "100%",
+//   height: "400px",
+//   backgroundImage: "url(" + { img } + ")"
+// };
+
+
 export default class Login extends Component {
   state = {
     name: "",
@@ -86,24 +95,27 @@ export default class Login extends Component {
     //   return (<Redirect to={'/home'}/>)
    // }
     return(
-
-    <Container>
-    <Col sm="12" md={{ size: 6, offset: 3 }}>
-    <form className="form-signin lower-content" onSubmit={this.login}>
-    <h1 className="h3 mb-3 font-weight-normal">Login</h1>
-    <label className="sr-only">Username</label>
-    <input className="form-control" type="text" name="name" placeholder="Username"/>
-    <br />
-    <input className="form-control" type="password" name="name" placeholder="Password"/>
-    <br />
-    <Button className="btn btn-lg btn-primary btn-block white-button" type="submit">
-       Log In
-    </Button>
-    </form>
-    <br />
-    Or <Link to="/Signup">Create Account</Link>
-    </Col>
-    </Container>
+      <Container style={{backgroundColor: '#E3AFBC'}}>
+      <Col sm="12" md={{ size: 6, offset: 3 }}>
+      <form className="form-signin lower-content" onSubmit={this.login}>
+      <h1 className="h3 mb-3 font-weight-normal">Login</h1>
+      <label className="sr-only">Username</label>
+      <input className="form-control" type="text" name="name" placeholder="Username"/>
+      <br />
+      <input className="form-control" type="password" name="name" placeholder="Password"/>
+      <br />
+      <Button className="btn btn-lg btn-primary btn-block white-button" type="submit">
+      Log In
+      </Button>
+      </form>
+      <br />
+      Or <Link to="/Signup">Create Account</Link>
+      </Col>
+      </Container>
+     
       );
      }
     } 
+  
+
+     
